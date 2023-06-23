@@ -301,6 +301,7 @@ p:hover{
 }
 
 .explore{
+    text-decoration: none;
     padding: 7px 15px;
     font-size: 20px;
     color: #fff;
