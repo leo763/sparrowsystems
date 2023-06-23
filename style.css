@@ -906,6 +906,12 @@ p:hover{
         z-index: 1;
         border-radius: 0 0 10px 10px ;
     }
+    .service-link{
+        width: 100%;
+        background-color: #f5e2cf;
+    }
+    
+    
 
     .navlink li:hover::after, .navlink .active::after{
         width: 0%;  
@@ -1026,6 +1032,11 @@ p:hover{
         width: 75%;
     }
 
+    .service-link{
+        width: 120%;
+    }
+    
+
     .display-text h1 {
         font-size: 45px;
         font-weight: 800;
@@ -1078,6 +1089,7 @@ p:hover{
     .team-div1, .team-div2{
         display: grid;
         grid-template-columns: auto;
+
     }
 
     .team-div1 .shadow, .team-div2 .shadow{
