@@ -300,8 +300,11 @@ p:hover{
     margin-bottom: 20px;
 }
 
-.explore{
+a{
     text-decoration: none;
+}
+
+.explore{
     padding: 7px 15px;
     font-size: 20px;
     color: #fff;
