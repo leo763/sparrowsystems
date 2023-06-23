@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sparrow Systems</title>
+
+    <link rel="apple-touch-icon" href="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;0,800;0,900;1,100;1,200;1,700;1,800;1,900&family=Nabla&family=Petrona:ital,wght@0,200;0,300;0,900;1,200;1,900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,600;1,700;1,900&family=Rampart+One&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a47d6090dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="fluid-container">
+      <div class="w-100 bg-dark text-light head-text pb-2 pt-2">
+        <div class="head mx-auto">
+          <div class="d-flex date">
+            <p class="mb-0">
+              <i class="fa fa-clock fa-beat mx-2"></i>Mon - Fri 8:00am - 5:00pm
+            </p>
+          </div>
+          <div class="find">
+            <div class="d-flex call">
+              <p class="mb-0">
+                <a href="tel:+256%20787%20877221">
+                  <i class="fa fa-phone fa-beat mx-2"></i> +256 777777777
+                </a>
+              </p>
+            </div>
+
+            <div class="link">
+              <i class="fa fa-facebook p-1 border"></i>
+              <i class="fa fa-instagram p-1 border"></i>
+              <i class="fa fa-twitter p-1 border"></i>
+              <i class="fa fa-linkedin p-1 border"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navbar" class="shadow-lg">
+        <div class="mx-auto navbar">
+          <h3 class="m-0">
+            <a href="index.html">SPARROW <br />SYSTEMS</a>
+          </h3>
+
+          <ul class="navlink" id="navlink">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">COMPANY</a></li>
+            <li class="serv">
+              <a href="services.html"
+                >SERVICES <i class="fa fa-angle-down" style="color: #964b00"></i
+              ></a>
+              <ul class="service-link" id="service-link">
+                <li><a href="ux-ui.html">UI/UX DESIGN</a></li>
+                <li><a href="web_development.html">WEB DEVELOPMENT</a></li>
+                <li>
+                  <a href="system_development.html">SYSTEM DEVELOPMENT</a>
+                </li>
+                <li>
+                  <a href="system_maintenance.html">SYSTEM MAINTENANCE</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="testimonial.html">TESTIMONIAL</a></li>
+            <li class="active"><a href="contactus.html">CONTACT</a></li>
+          </ul>
+
+          <button class="book">Book</button>
+
+          <i class="fa fa-bars" id="menu-on"></i>
+          <i class="fa fa-times" id="menu-off"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="row display-else">
+      <div
+        class="col-lg-10 mx-auto position-relative"
+        style="width: 80%; max-width: 1200px"
+      >
+        <div class="display-else-text text-light position-absolute">
+          <h1 class="mb-2">Contact</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-100 contact-section">
+      <div class="row d-grid mx-auto reach mt-5">
+        <div class="row justify-content-center reach-content shadow-lg">
+          <div
+            class="d-grid col-lg-4 justify-content-around align-items-center info pb-5"
+          >
+            <div>
+              <i
+                class="fa-solid fa-location-dot fa-beat fa-2x"
+                style="color: #964b00"
+              ></i>
+              <h4>Address</h4>
+              <p>Kishenyi</p>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-phone fa-beat fa-2x"
+                style="color: #964b00"
+              ></i>
+              <h4>Contact</h4>
+              <p>
+                +256 7777777777 <br />
+                +256 7033333333333
+              </p>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-envelope fa-beat fa-2x"
+                style="color: #964b00"
+              ></i>
+              <h4>Email</h4>
+              <p>sparrow@gmail.com</p>
+            </div>
+          </div>
+
+          <div
+            class="d-grid col-lg-8 justify-content-center align-items-center pb-5"
+          >
+            <p>
+              If you have any types of quries related to my our Company, you can
+              send us a message from here.
+            </p>
+
+            <form
+              action=""
+              method="post"
+              class="form-control reach-form mx-auto"
+            >
+              <input type="email" name="email" placeholder="Email" required />
+
+              <textarea name="email" placeholder="Message" required></textarea>
+
+              <button type="submit" class="book">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-100 location-section">
+      <div class="row mx-auto location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d249.33894687753096!2d29.710747179537712!3d-0.8064116709428266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scultural%20center%20near%20Kishenyi!5e0!3m2!1sen!2sug!4v1680809647072!5m2!1sen!2sug"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section class="w-100 pt-5 pb-5 bg-dark">
+      <div class="text-light footer mx-auto mb-5">
+        <div class="logo m-5">
+          <h3 class="">
+            <a href="index.html">SPARROW <br />SYSTEMS</a>
+          </h3>
+          <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </div>
+
+        <div class="m-5">
+          <h4>Links</h4>
+
+          <ul>
+            <li><a href="about.html">COMPANY</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="testimonial.html">TESTIMONIAL</a></li>
+            <li><a href="contactus.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="m-5">
+          <h4>Services</h4>
+
+          <ul>
+            <li><a href="services.html">UI/UX design</a></li>
+            <li><a href="services.html">Web Development</a></li>
+            <li><a href="services.html">System Development</a></li>
+            <li><a href="services.html">System Repair</a></li>
+          </ul>
+        </div>
+
+        <div class="m-5">
+          <h4>Contact</h4>
+
+          <p>Kishenyi</p>
+          <a href="tel:+256%20787%20877221">
+            <p>
+              +256 7777777777 <br />
+              +256 7033333333333
+            </p>
+          </a>
+          <p>sparrow@gmail.com</p>
+        </div>
+      </div>
+      <p class="text-center text-light mt-5">
+        Copyright ©2022 All rights reserved | Developed by Leon
+      </p>
+    </section>
+
+    <a href="#" class="position-fixed to-top" id="to-top"
+      ><i class="fa fa-arrow-up fa-2x"></i
+    ></a>
+
+    <script src="index.js"></script>
+  </body>
+</html>
