@@ -249,7 +249,7 @@ p:hover{
 
 .display-else{
     height: 35vh;
-    background-image: linear-gradient(to right, #2c2b2b70, #3a3a3a70) ,url('./images/bg2.jpg');
+    background-image: linear-gradient(to right, #2c2b2b70, #3a3a3a70) ,url('./images/bg1.jpg');
     background-position: center;
     background-size: cover;
 }
