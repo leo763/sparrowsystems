@@ -36,7 +36,6 @@ function myFunction() {
 
 }
 
-
 var menuOn = document.getElementById("menu-on");
 var menuOff = document.getElementById("menu-off");
 
@@ -54,14 +53,9 @@ menuOff.addEventListener("click",function(){
     menuOff.style.display = "none";
 });
 
-
-
 // Add the top class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction1() {
   if (window.pageYOffset >= sticky) {
   } else {
   }
-
-
-
 }
