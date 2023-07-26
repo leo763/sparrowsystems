@@ -26,6 +26,4 @@ foreach ($names as $name) {
 
 print_r($nameAgePairs);
 
-
-
 ?>
